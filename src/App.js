@@ -4,40 +4,50 @@ const App = () => {
       <div className="App">
         <div className="px-[18px]">
           <div className="header">
-            <div className="logo"></div>
-            <div className="hamburger-menu">
-              <a href="" className="link">
-                photos
-              </a>
-              <a href="" className="link">
-                prints
-              </a>
-              <a href="" className="link">
-                prices
-              </a>
-              <a href="" className="link">
-                contact
-              </a>
-              <a href="" className="link">
-                about
-              </a>
-            </div>
-            <div className="hide-mobile desktop-menu">
-              <a href="" className="link">
-                photos
-              </a>
-              <a href="" className="link">
-                prints
-              </a>
-              <a href="" className="link">
-                prices
-              </a>
-              <a href="" className="link">
-                contact
-              </a>
-              <a href="" className="link">
-                about
-              </a>
+            <div className="container">
+              <div className="logo"></div>
+
+              <div className="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div className="mobile-menu-wrapper hidden">
+                <div className="hamburger-menu">
+                  <a href="" className="link">
+                    photos
+                  </a>
+                  <a href="" className="link">
+                    prints
+                  </a>
+                  <a href="" className="link">
+                    prices
+                  </a>
+                  <a href="" className="link">
+                    contact
+                  </a>
+                  <a href="" className="link">
+                    about
+                  </a>
+                </div>
+              </div>
+              <div className="hidden xl:flex desktop-menu">
+                <a href="" className="link">
+                  photos
+                </a>
+                <a href="" className="link">
+                  prints
+                </a>
+                <a href="" className="link">
+                  prices
+                </a>
+                <a href="" className="link">
+                  contact
+                </a>
+                <a href="" className="link">
+                  about
+                </a>
+              </div>
             </div>
           </div>
           <div className="content">
