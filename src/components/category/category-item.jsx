@@ -1,10 +1,10 @@
-const CategoryItem = () => {
+const CategoryItem = ({ item }) => {
   return (
     <figure className="category-container">
-      <img src={require(".././assets/family.jpg")} className="" alt="" />
+      <img src={item?.img} alt={item?.title} />
       <figcaption>
-        <span>Family</span> - Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus.
+        <span>{item.title}</span>
+        {item.description}
       </figcaption>
     </figure>
   );
