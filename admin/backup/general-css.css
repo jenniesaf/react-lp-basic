@@ -14,7 +14,7 @@ body {
   margin-inline: 18px;
 } */
 .hero {
-  background-image: url(./assets/hero-mob.jpg);
+  background-image: url(/assets/hero-mob.jpg);
   /* height: 400px; */
   background-size: cover;
   /* margin-inline: -18px; */

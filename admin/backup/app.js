@@ -1,5 +1,3 @@
-import Categories from "./components/categories/categories";
-
 const App = () => {
   return (
     <div>
@@ -64,7 +62,44 @@ const App = () => {
             <section className="photos">
               <div className="container">
                 <h2>Photography Shooting</h2>
-                <Categories />
+                <div className="category-wrap xl:flex xl:gap-5 xl:justify-center xl:mx-16">
+                  <figure>
+                    <img
+                      src={require("/assets/family.jpg")}
+                      className=""
+                      alt=""
+                    />
+                    <figcaption>
+                      <span>Family</span> - Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Donec venenatis neque eu est
+                      feugiat, in malesuada lectus luctus.
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img src={require("/assets/wedding1.jpg")} alt="" />
+                    <figcaption>
+                      <span>Wedding</span> - Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Donec venenatis neque eu est
+                      feugiat, in malesuada lectus luctus.
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img src={require("/assets/kids.jpg")} alt="" />
+                    <figcaption>
+                      <span>Kids</span> - Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Donec venenatis neque eu est
+                      feugiat, in malesuada lectus luctus.
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img src={require("/assets/fashion1.jpg")} alt="" />
+                    <figcaption>
+                      <span>Fashion</span> - Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit. Donec venenatis neque eu est
+                      feugiat, in malesuada lectus luctus.
+                    </figcaption>
+                  </figure>
+                </div>
               </div>
             </section>
             <section className="prices bg-[#f6f9fc] mx-[-18px]">
@@ -72,7 +107,7 @@ const App = () => {
                 <h2>How It Works</h2>
                 <div className="plans flex flex-wrap gap-5 justify-center bg-white rounded-3xl mx-5 py-5 xl:max-w-[1170px] xl:flex xl:m-auto xl:py-14 xl:px-[115px] xl:gap-5">
                   <div className="plan">
-                    <img src="/assets/basic.jpg" alt="" />
+                    <img src={require("/assets/basic.jpg")} alt="" />
                     <h3>BASIC SESSION</h3>
                     <p className="mb-4 xl:before:inline-block xl:before:h-[7px] xl:before:w-[7px] xl:before:bg-[#454545] xl:before:rounded-full xl:before:mr-4 xl:before:mb-[1px]">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -92,7 +127,7 @@ const App = () => {
                     <button className="more">Learn More</button>
                   </div>
                   <div className="plan">
-                    <img src="/assets/wedding2.jpg" alt="" />
+                    <img src={require("/assets/wedding2.jpg")} alt="" />
                     <h3 className="plan-title">WEDDING</h3>
                     <p className="mb-4 xl:before:inline-block xl:before:h-[7px] xl:before:w-[7px] xl:before:bg-[#454545] xl:before:rounded-full xl:before:mr-4 xl:before:mb-[1px]">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -112,7 +147,7 @@ const App = () => {
                     <button className="more">Learn More</button>
                   </div>
                   <div className="plan">
-                    <img src="/assets/lookbook.jpg" alt="" />
+                    <img src={require("/assets/lookbook.jpg")} alt="" />
                     <h3 className="plan-title">LOOKBOOK</h3>
                     <p className="mb-4 xl:before:inline-block xl:before:h-[7px] xl:before:w-[7px] xl:before:bg-[#454545] xl:before:rounded-full xl:before:mr-4 xl:before:mb-[1px]">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -132,7 +167,7 @@ const App = () => {
                     <button className="more">Learn More</button>
                   </div>
                   <div className="plan">
-                    <img src="/assets/fashion2.jpg" alt="" />
+                    <img src={require("/assets/fashion2.jpg")} alt="" />
                     <h3 className="plan-title">FASHION</h3>
                     <p className="mb-4 xl:before:inline-block xl:before:h-[7px] xl:before:w-[7px] xl:before:bg-[#454545] xl:before:rounded-full xl:before:mr-4 xl:before:mb-[1px]">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -159,7 +194,7 @@ const App = () => {
                 <h2>Art And Prints</h2>
                 <div className="items-wrapper xl:flex xl:gap-5">
                   <div className="art-item">
-                    <img src="/assets/portrait.jpg" alt="" />
+                    <img src={require("/assets/portrait.jpg")} alt="" />
                     <div className="item-description">
                       <p>
                         <span>Portrait</span> - Lorem ipsum dolor sit amet,
@@ -169,7 +204,7 @@ const App = () => {
                     </div>
                   </div>
                   <div className="art-item flex-row-reverse xl:flex-row">
-                    <img src="/assets/bw.jpg" alt="" />
+                    <img src={require("/assets/bw.jpg")} alt="" />
                     <div className="item-description ps-2">
                       <p>
                         <span>Black & White</span> - Lorem ipsum dolor sit amet,
@@ -179,7 +214,7 @@ const App = () => {
                     </div>
                   </div>
                   <div className="art-item">
-                    <img src="/assets/illustration.jpg" alt="" />
+                    <img src={require("/assets/illustration.jpg")} alt="" />
                     <div className="item-description">
                       <p>
                         <span>Illustrations</span> - Lorem ipsum dolor sit amet,
@@ -219,7 +254,7 @@ const App = () => {
                     </p>
                   </div>
                   <img
-                    src="/assets/self.jpg"
+                    src={require("/assets/self.jpg")}
                     className="w-full max-w-[576px]"
                     alt=""
                   />
@@ -229,7 +264,7 @@ const App = () => {
             <footer className=" pt-5 mb-12 flex flex-col items-center gap-5 text-center">
               <div className="container">
                 <img
-                  src="/assets/logo-dark.png"
+                  src={require("/assets/logo-dark.png")}
                   alt=""
                   className="logo xl:my-5 mx-auto"
                 />
@@ -258,22 +293,22 @@ const App = () => {
                   <ul className="socials flex gap-5 m-auto justify-center py-5 items-center p-0">
                     <li className="social-item">
                       <a href="" className="instagram" target="_blank">
-                        <img src="/assets/instagram.png" alt="" />
+                        <img src={require("/assets/instagram.png")} alt="" />
                       </a>
                     </li>
                     <li className="social-item">
                       <a href="" className="facebook" target="_blank">
-                        <img src="/assets/facebook.png" alt="" />
+                        <img src={require("/assets/facebook.png")} alt="" />
                       </a>
                     </li>
                     <li className="social-item">
                       <a href="" className="tiktok" target="_blank">
-                        <img src="/assets/tiktok.png" alt="" />
+                        <img src={require("/assets/tiktok.png")} alt="" />
                       </a>
                     </li>
                     <li className="social-item">
                       <a href="" className="youtube" target="_blank">
-                        <img src="/assets/youtube.png" alt="" />
+                        <img src={require("/assets/youtube.png")} alt="" />
                       </a>
                     </li>
                   </ul>
