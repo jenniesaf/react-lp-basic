@@ -34,120 +34,82 @@
     "title": "Photography Shooting",
     "items": [
       {
+        "id": "1",
         "title": "Family",
         "description": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus.",
-        "img": ".././assets/family.jpg"
+        "img": "../../assets/family.jpg"
       },
       {
+        "id": "2",
         "title": "Wedding",
         "description": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus.",
-        "img": ".././assets/wedding1.jpg"
+        "img": "../../assets/wedding1.jpg"
       },
       {
+        "id": "3",
         "title": "Kids",
         "description": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus.",
-        "img": ".././assets/kids.jpg"
+        "img": "../../assets/kids.jpg"
       },
       {
+        "id": "4",
         "title": "Fashion",
         "description": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus.",
-        "img": ".././assets/fashion1.jpg"
+        "img": "../../assets/fashion1.jpg"
+      }
+    ]
+  },
+  "plans": {
+    "title": "How It Works",
+    "items": [
+      {
+        "name": "Basic Session",
+        "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus1.",
+        "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus2.",
+        "description3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus3.",
+        "img": "../../assets/basic.jpg"
+      },
+      {
+        "name": "Wedding",
+        "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus1.",
+        "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus2.",
+        "description3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus3.",
+        "img": "/assets/wedding2.jpg"
+      },
+      {
+        "name": "Lookbook",
+        "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus1.",
+        "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus2.",
+        "description3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus3.",
+        "img": "/assets/lookbook.jpg"
+      },
+      {
+        "name": "Fashion",
+        "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus1.",
+        "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus2.",
+        "description3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus3.",
+        "img": "/assets/fashion2.jpg"
       }
     ]
   },
   "features": {
-    "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "title": "Art And Prints",
     "items": [
       {
-        "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
-        "icon": "/assets/images/react.png"
+        "name": "Portrait",
+        "description": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus.",
+        "img": "../../assets/portrait.jpg"
       },
       {
-        "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
-        "icon": "/assets/images/tailwindcss.svg"
+        "name": "Black & White",
+        "description": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus.",
+        "img": "../../assets/bw.jpg"
       },
       {
-        "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
-        "icon": "/assets/images/nextjs.svg"
-      },
-      {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
-        "icon": "/assets/images/ts.png"
+        "name": "Illustrations",
+        "description": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus.",
+        "img": "../../assets/illustration.jpg"
       }
     ]
-  },
-  "pricing": {
-    "title": "Pricing",
-    "items": [
-      {
-        "name": "Free",
-        "price": "$0",
-        "priceDetails": "for one user",
-        "features": [
-          "1 user",
-          "Basic Support",
-          "1 GB of storage",
-          "Email support"
-        ]
-      },
-      {
-        "name": "Pro",
-        "price": "$15",
-        "priceDetails": "per user",
-
-        "features": [
-          "5 users",
-          "Priority Support",
-          "10 GB of storage",
-          "Phone and Email support"
-        ]
-      },
-      {
-        "name": "Enterprise",
-        "price": "$29",
-        "priceDetails": "per user",
-        "features": [
-          "50 users",
-          "24/7 Support",
-          "100 GB of storage",
-          "Phone and Email support"
-        ]
-      }
-    ]
-  },
-  "about": {
-    "sections": [
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      }
-    ],
-    "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
-    }
   }
 }
