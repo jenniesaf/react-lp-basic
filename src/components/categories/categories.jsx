@@ -4,7 +4,7 @@ const Categories = () => {
   const { categories } = data;
   const items = categories.items;
   return (
-    <div className="categories-container xl:flex xl:gap-5 xl:justify-center xl:mx-16">
+    <div className="categories-container xl:flex xl:gap-5 xl:justify-center">
       {items.map((item) => (
         <CategoryItem key={item.id} item={item} />
       ))}

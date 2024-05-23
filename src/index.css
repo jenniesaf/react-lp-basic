@@ -90,7 +90,8 @@
 
   @media only screen and (min-width: 1280px) {
     figure {
-      @apply max-w-[260px];
+      /* @apply max-w-[260px]; */
+      width: 100%;
     }
     figcaption {
       @apply text-xl;
@@ -109,7 +110,7 @@
 
   @media only screen and (min-width: 1536px) {
     figure {
-      @apply max-w-[320px];
+      /* @apply max-w-[337px]; */
     }
   }
 }
