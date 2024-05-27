@@ -1,7 +1,11 @@
+import data from "./../../data/data.json";
+
 const About = () => {
+  const { about } = data;
   return (
     <section className="about bg-[#f6f9fc] mx-[-18px] pb-10">
       <div className="container px-[18px]">
+        <h2>{about.title}</h2>
         <h2>
           Hi! Nice to meet you. <br />
           We're SimSisters

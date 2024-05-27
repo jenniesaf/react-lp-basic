@@ -63,6 +63,7 @@
     "title": "How It Works",
     "items": [
       {
+        "id": 1,
         "name": "Basic Session",
         "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus1.",
         "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus2.",
@@ -70,6 +71,7 @@
         "img": "../../assets/basic.jpg"
       },
       {
+        "id": 2,
         "name": "Wedding",
         "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus1.",
         "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus2.",
@@ -77,6 +79,7 @@
         "img": "/assets/wedding2.jpg"
       },
       {
+        "id": 3,
         "name": "Lookbook",
         "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus1.",
         "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus2.",
@@ -84,6 +87,7 @@
         "img": "/assets/lookbook.jpg"
       },
       {
+        "id": 4,
         "name": "Fashion",
         "description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus1.",
         "description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus2.",
@@ -96,20 +100,26 @@
     "title": "Art And Prints",
     "items": [
       {
+        "id": 1,
         "name": "Portrait",
         "description": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus.",
         "img": "../../assets/portrait.jpg"
       },
       {
+        "id": 2,
         "name": "Black & White",
         "description": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus.",
         "img": "../../assets/bw.jpg"
       },
       {
+        "id": 3,
         "name": "Illustrations",
         "description": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis neque eu est feugiat, in malesuada lectus luctus.",
         "img": "../../assets/illustration.jpg"
       }
     ]
+  },
+  "about": {
+    "title": "Hi! Nice to meet you.\nWe're SimSisters"
   }
 }
