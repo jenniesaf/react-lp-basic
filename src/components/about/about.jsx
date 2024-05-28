@@ -5,11 +5,7 @@ const About = () => {
   return (
     <section className="about bg-[#f6f9fc] mx-[-18px] pb-10">
       <div className="container px-[18px]">
-        <h2>{about.title}</h2>
-        <h2>
-          Hi! Nice to meet you. <br />
-          We're SimSisters
-        </h2>
+        <h2 dangerouslySetInnerHTML={{ __html: `${about.title}` }}></h2>
         <div className="about-wrapper xl:flex xl:gap-5 xl:flex-row-reverse">
           <div className="about-content text-center pb-10 xl:text-left xl:items-center">
             <p className="mb-4 xl:text-2xl">
