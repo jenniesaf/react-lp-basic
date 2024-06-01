@@ -5,7 +5,10 @@ import Socials from "../socials";
 
 const Footer = () => {
   return (
-    <footer className="pt-5 mb-12 flex flex-col items-center gap-5 text-center">
+    <footer
+      className="pt-5 mb-12 flex flex-col items-center gap-5 text-center"
+      name="section5"
+    >
       <div className="container">
         <LogoDark />
         <p className="contact-info py-5 xl:text-xl">

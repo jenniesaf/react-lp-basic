@@ -6,7 +6,7 @@ import Header from "../header/header";
 import Hero from "../hero/hero";
 import Plans from "../plans/plans";
 
-const Home = (titles) => {
+const Home = () => {
   return (
     <div className="px-[18px]">
       <Header />

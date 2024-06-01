@@ -6,7 +6,7 @@ const Features = () => {
   const items = features.items;
 
   return (
-    <section>
+    <section name="section2">
       <div className="container">
         <h2>{features.title}</h2>
         <div className="art-items-wrapper xl:flex xl:gap-5">

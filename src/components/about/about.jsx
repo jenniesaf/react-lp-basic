@@ -3,7 +3,7 @@ import data from "./../../data/data.json";
 const About = () => {
   const { about } = data;
   return (
-    <section className="about bg-[#f6f9fc] mx-[-18px] pb-10">
+    <section className="about bg-[#f6f9fc] mx-[-18px] pb-10" name="section4">
       <div className="container px-[18px]">
         <h2 dangerouslySetInnerHTML={{ __html: `${about.title}` }}></h2>
         <div className="about-wrapper xl:flex xl:gap-5 xl:flex-row-reverse">

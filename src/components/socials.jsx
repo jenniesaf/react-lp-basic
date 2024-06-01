@@ -4,22 +4,22 @@ const Socials = () => {
   const socials = [
     {
       id: 1,
-      url: "https://github.com/jenniesaf1",
+      url: "#",
       imgUrl: "/assets/facebook.png",
     },
     {
       id: 2,
-      url: "https://github.com/jenniesaf2",
+      url: "#",
       imgUrl: "/assets/instagram.png",
     },
     {
       id: 3,
-      url: "https://github.com/jenniesaf3",
+      url: "#",
       imgUrl: "/assets/tiktok.png",
     },
     {
       id: 4,
-      url: "https://github.com/jenniesaf4",
+      url: "#",
       imgUrl: "/assets/youtube.png",
     },
   ];

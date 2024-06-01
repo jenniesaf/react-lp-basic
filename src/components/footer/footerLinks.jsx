@@ -1,37 +1,37 @@
-import Link from "../link";
+import MenuLink from "../menuLink";
 
 const FooterLinks = () => {
   const menuLinks = [
     {
       id: 1,
       title: "photos",
-      url: "https://github.com/jenniesaf1",
+      name: "section1",
     },
     {
       id: 2,
       title: "prints",
-      url: "https://github.com/jenniesaf2",
+      name: "section2",
     },
     {
       id: 3,
       title: "prices",
-      url: "https://github.com/jenniesaf3",
+      name: "section3",
     },
     {
       id: 4,
       title: "contact",
-      url: "https://github.com/jenniesaf4",
+      name: "section4",
     },
     {
       id: 5,
       title: "about",
-      url: "https://github.com/jenniesaf5",
+      name: "section5",
     },
   ];
   return (
     <>
       {menuLinks.map((menuLink, index) => (
-        <Link key={menuLink?.id} menuLink={menuLink} index={index} />
+        <MenuLink key={menuLink?.id} menuLink={menuLink} index={index} />
       ))}
     </>
   );
