@@ -1,5 +1,5 @@
-import CategoryItem from "../category/category-item";
-import data from "./../../data/data.json";
+import CategoryItem from "./category-item";
+import data from "../data/data.json";
 
 const Categories = () => {
   const { categories } = data;

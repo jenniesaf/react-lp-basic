@@ -1,5 +1,5 @@
-import FeatureItem from "../feature/feature";
-import data from "./../../data/data.json";
+import FeatureItem from "./feature";
+import data from "../data/data.json";
 
 const Features = () => {
   const { features } = data;

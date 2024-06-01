@@ -1,5 +1,5 @@
-import data from "../../data/data.json";
-import PlanItem from "../plan/plan";
+import data from "../data/data.json";
+import PlanItem from "./plan";
 const Plans = () => {
   const { plans } = data;
   const items = plans.items;
