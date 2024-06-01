@@ -1,3 +1,4 @@
+import "./header.css";
 import HeaderLinks from "./headerLinks";
 
 const Header = () => {
@@ -13,7 +14,7 @@ const Header = () => {
             />
           </div>
 
-          <div className="hamburger xl:hidden flex flex-col h-[17px] cursor-pointer absolute content-between mb-5 z-10">
+          <div className="hamburger xl:hidden flex flex-col h-[17px] cursor-pointer absolute justify-between mb-5 z-[1]">
             <span></span>
             <span></span>
             <span></span>
