@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .mobile-menu-wrapper.active {
+    @apply block;
+  }
+  .hamburger-menu a {
+    @apply text-white;
+    @apply text-base;
+  }
+}
+.hamburger span {
+  display: block;
+  height: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  border-radius: 2px;
+  width: 24px;
+}
+.hamburger.active span:first-child {
+  transform: translateY(5px) rotate(45deg);
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: translateY(-1px) rotate(-45deg);
+}
+
+.hamburger.active {
+  display: block;
+}

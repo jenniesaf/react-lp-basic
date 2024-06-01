@@ -1,14 +1,14 @@
 const FeatureItem = ({ item, index }) => {
   return (
     <div
-      className={`art-item ${
+      className={`flex mb-5 items-center ${
         index === 1 ? "flex-row-reverse" : ""
       }  xl:flex-row`}
     >
-      <img src={item?.img} alt="" />
-      <div className="item-description">
+      <img src={item?.img} alt="" className="w-1/2" />
+      <div className="item-description w-1/2 ps-2">
         <p>
-          <span>{item?.name}</span>
+          <span className="font-bold">{item?.name}</span>
           {item?.description}
         </p>
       </div>

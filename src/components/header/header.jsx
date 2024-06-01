@@ -1,3 +1,5 @@
+import HeaderLinks from "./headerLinks";
+
 const Header = () => {
   return (
     <>
@@ -11,13 +13,14 @@ const Header = () => {
             />
           </div>
 
-          <div className="hamburger xl:hidden">
+          <div className="hamburger xl:hidden flex flex-col h-[17px] cursor-pointer absolute content-between mb-5 z-10">
             <span></span>
             <span></span>
             <span></span>
           </div>
-          <div className="mobile-menu-wrapper hidden">
-            <div className="hamburger-menu">
+          <div className="mobile-menu-wrapper hidden bg-black w-4/5 left-0 ps-[18px] absolute h-[300px]">
+            <div className="hamburger-menu flex flex-col cursor-pointer absolute mt-[60px] gap-4">
+              <HeaderLinks />
               <a href="https://github.com/jenniesaf" className="link">
                 photos
               </a>

@@ -28,75 +28,8 @@
     @apply text-sm;
     @apply font-light;
   }
-  figure {
-    @apply m-0;
-    @apply leading-[0];
-  }
-  figure img {
-    @apply w-full;
-    @apply h-auto;
-  }
-  figcaption {
-    @apply leading-6;
-    @apply text-sm;
-    @apply py-5;
-  }
-  figcaption span {
-    @apply font-bold;
-  }
-
-  .plan {
-    @apply block;
-    @apply max-w-[216px];
-    @apply mb-8;
-  }
-  .plan img {
-    @apply w-[216px];
-    @apply block;
-    @apply m-auto;
-  }
-
-  .plan button {
-    @apply w-auto;
-    @apply min-w-[150px];
-    @apply text-sm;
-    @apply font-medium;
-    @apply p-3;
-    @apply bg-[#7da4cb];
-    @apply border-none;
-    @apply rounded-md;
-    @apply mt-5;
-    @apply text-white;
-  }
-  .art-item {
-    @apply flex;
-    @apply mb-5;
-    @apply items-center;
-  }
-  .item-description span {
-    @apply font-bold;
-  }
-  .footer-menu .link {
-    @apply text-inherit;
-    @apply no-underline;
-    @apply uppercase;
-    /* @apply pe-5; */
-    @apply pb-3;
-  }
-
-  .socials li {
-    @apply list-none;
-  }
 
   @media only screen and (min-width: 1280px) {
-    figure {
-      /* @apply max-w-[260px]; */
-      width: 100%;
-    }
-    figcaption {
-      @apply text-xl;
-      @apply leading-8;
-    }
     section {
       @apply pb-14;
     }
@@ -105,12 +38,6 @@
     }
     p {
       @apply leading-8;
-    }
-  }
-
-  @media only screen and (min-width: 1536px) {
-    figure {
-      /* @apply max-w-[337px]; */
     }
   }
 }
@@ -127,69 +54,9 @@ body {
   background-image: url(/public/assets/hero-mob.jpg);
   background-size: cover;
 }
-.art-item img {
-  width: 50%;
-}
-.item-description {
-  width: 50%;
-  padding-inline-start: 8px;
-}
+
 @media only screen and (min-width: 1280px) {
   .hero {
     background-image: url(/public/assets/hero-desktop.jpg);
   }
-}
-.hamburger-menu {
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  position: absolute;
-  margin-top: 60px;
-  gap: 15px;
-}
-.mobile-menu-wrapper.active {
-  display: block;
-}
-.mobile-menu-wrapper {
-  background-color: #000;
-  width: 80%;
-  left: 0;
-  padding-inline-start: 18px;
-  position: absolute;
-  height: 300px;
-}
-.hamburger-menu a {
-  color: #fff;
-  font-size: 16px;
-}
-.hamburger {
-  display: flex;
-  flex-direction: column;
-  height: 17px;
-  cursor: pointer;
-  position: absolute;
-  justify-content: space-between;
-  margin-block: 20px;
-  z-index: 1;
-}
-.hamburger span {
-  display: block;
-  height: 3px;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #fff;
-  border-radius: 2px;
-  width: 24px;
-}
-.hamburger.active span:first-child {
-  transform: translateY(5px) rotate(45deg);
-}
-.hamburger.active span:nth-child(2) {
-  opacity: 0;
-}
-.hamburger.active span:nth-child(3) {
-  transform: translateY(-1px) rotate(-45deg);
-}
-.hamburger.active {
-  display: block;
 }
