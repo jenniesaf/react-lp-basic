@@ -1,15 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-  .mobile-menu-wrapper.active {
-    @apply block;
-  }
-  .hamburger-menu a {
-    @apply text-white;
-    @apply text-base;
-  }
+.mobile-menu-wrapper.active {
+  display: block;
+}
+.hamburger-menu a {
+  color: white;
+  font-size: 16px;
 }
 .hamburger span {
   display: block;

@@ -40,21 +40,7 @@ const Header = () => {
             </div>
           </div>
           <div className="hidden xl:flex desktop-menu xl:text-white xl:gap-5 xl:mt-5 uppercase">
-            <a href="https://github.com/jenniesaf" className="link">
-              photos
-            </a>
-            <a href="https://github.com/jenniesaf" className="link">
-              prints
-            </a>
-            <a href="https://github.com/jenniesaf" className="link">
-              prices
-            </a>
-            <a href="https://github.com/jenniesaf" className="link">
-              contact
-            </a>
-            <a href="https://github.com/jenniesaf" className="link">
-              about
-            </a>
+            <HeaderLinks />
           </div>
         </div>
       </div>
