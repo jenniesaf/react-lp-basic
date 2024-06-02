@@ -8,6 +8,7 @@ This is a React.js based landing page template, with a modern design.
 
 
 Features
-📱 Responsive design
 
-🎨 Integrate with Tailwind CSSs
+Responsive design
+
+Integrate with Tailwind CSSs
