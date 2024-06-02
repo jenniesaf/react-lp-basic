@@ -1,7 +1,6 @@
-# [LIVE DEMO](https://react-lp-basic.vercel.app/).   
+# React.js landing page basic template
 
-
-# Getting Started with Create React App
+# [LIVE DEMO](https://react-lp-basic.vercel.app/) 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
