@@ -4,11 +4,5 @@
 
 # Description
 
-This is a React.js based landing page template, with a modern design.
+This is a React.js based responsive landing page template, with a modern design, integrate with Tailwind CSS.
 
-
-Features
-
-Responsive design
-
-Integrate with Tailwind CSSs
